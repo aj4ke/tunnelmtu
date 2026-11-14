@@ -1,0 +1,41 @@
+workflow:
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: $CI_COMMIT_TAG =~ /^v/
+
+stages:
+  - check
+  - build
+
+variables:
+  CGO_ENABLED: "0"
+
+go-check:
+  stage: check
+  image: golang:1.26.1
+  script:
+    - go mod tidy && git diff --exit-code go.mod go.sum
+    - test -z "$(gofmt -l .)"
+    - go vet ./...
+
+lint-python:
+  stage: check
+  image: ghcr.io/astral-sh/uv:python3.12-bookworm-slim
+  script:
+    - uvx ruff check test_mtu.py
+
+build:
+  stage: build
+  image: golang:1.26.1
+  needs: [go-check]
+  variables:
+    GIT_DEPTH: "0"
+  script:
+    - make build
+    - ./dist/tunnelmtu-linux-amd64 --version
+    - cd dist && sha256sum tunnelmtu-linux-* | tee SHA256SUMS
+  artifacts:
+    name: tunnelmtu
+    paths:
+      - dist/

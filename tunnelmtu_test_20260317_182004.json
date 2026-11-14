@@ -1,0 +1,367 @@
+{
+  "host": "root@10.0.0.240",
+  "interfaces": [
+    "l2tpeth1002",
+    "l2tpeth1003"
+  ],
+  "target": "1.1.1.1",
+  "timestamp": "2026-03-17T18:20:04.268715+00:00",
+  "phase1": {
+    "configured_mtu": 1500,
+    "tunnelmtu": [
+      {
+        "interface": "l2tpeth1002",
+        "path_mtu": 1491,
+        "usable_mtu": 1441,
+        "configured_mtu": 1500,
+        "total_overhead": 50,
+        "probe_count": 10,
+        "duration_ms": 8602,
+        "pass_": true,
+        "error": ""
+      },
+      {
+        "interface": "l2tpeth1003",
+        "path_mtu": 1488,
+        "usable_mtu": 1438,
+        "configured_mtu": 1500,
+        "total_overhead": 50,
+        "probe_count": 11,
+        "duration_ms": 4881,
+        "pass_": true,
+        "error": ""
+      }
+    ],
+    "speedtests": [
+      {
+        "dl_iqm_ms": 145.562,
+        "dl_high_ms": 558.886,
+        "jitter_ms": 0.79,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 144.431,
+        "dl_high_ms": 524.85,
+        "jitter_ms": 2.624,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 143.757,
+        "dl_high_ms": 363.496,
+        "jitter_ms": 2.499,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 144.735,
+        "dl_high_ms": 206.457,
+        "jitter_ms": 0.634,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 146.994,
+        "dl_high_ms": 545.917,
+        "jitter_ms": 3.022,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 142.429,
+        "dl_high_ms": 353.158,
+        "jitter_ms": 1.228,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 144.5,
+        "dl_high_ms": 503.657,
+        "jitter_ms": 3.064,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 145.702,
+        "dl_high_ms": 605.687,
+        "jitter_ms": 0.6,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 146.364,
+        "dl_high_ms": 220.26,
+        "jitter_ms": 0.464,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 144.561,
+        "dl_high_ms": 506.718,
+        "jitter_ms": 1.509,
+        "error": ""
+      }
+    ],
+    "frag_deltas": [
+      {
+        "reasm_reqds": 60,
+        "reasm_oks": 30,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 60,
+        "reasm_oks": 30,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 52,
+        "reasm_oks": 26,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 56,
+        "reasm_oks": 28,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 68,
+        "reasm_oks": 34,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 58,
+        "reasm_oks": 29,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 58,
+        "reasm_oks": 29,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 60,
+        "reasm_oks": 30,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 58,
+        "reasm_oks": 29,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 58,
+        "reasm_oks": 29,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      }
+    ]
+  },
+  "correct_mtu": 1438,
+  "phase3": {
+    "configured_mtu": 1438,
+    "tunnelmtu": [
+      {
+        "interface": "l2tpeth1002",
+        "path_mtu": 1488,
+        "usable_mtu": 1438,
+        "configured_mtu": 1438,
+        "total_overhead": 50,
+        "probe_count": 11,
+        "duration_ms": 1874,
+        "pass_": true,
+        "error": ""
+      },
+      {
+        "interface": "l2tpeth1003",
+        "path_mtu": 1488,
+        "usable_mtu": 1438,
+        "configured_mtu": 1438,
+        "total_overhead": 50,
+        "probe_count": 11,
+        "duration_ms": 1925,
+        "pass_": true,
+        "error": ""
+      }
+    ],
+    "speedtests": [
+      {
+        "dl_iqm_ms": 150.161,
+        "dl_high_ms": 602.695,
+        "jitter_ms": 1.012,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 149.821,
+        "dl_high_ms": 502.019,
+        "jitter_ms": 1.147,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 149.996,
+        "dl_high_ms": 517.992,
+        "jitter_ms": 2.076,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 148.316,
+        "dl_high_ms": 582.8,
+        "jitter_ms": 1.265,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 149.896,
+        "dl_high_ms": 561.71,
+        "jitter_ms": 2.802,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 145.137,
+        "dl_high_ms": 532.752,
+        "jitter_ms": 3.714,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 144.536,
+        "dl_high_ms": 565.765,
+        "jitter_ms": 0.612,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 154.843,
+        "dl_high_ms": 603.743,
+        "jitter_ms": 1.055,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 141.911,
+        "dl_high_ms": 546.23,
+        "jitter_ms": 2.75,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 148.25,
+        "dl_high_ms": 604.965,
+        "jitter_ms": 5.502,
+        "error": ""
+      }
+    ],
+    "frag_deltas": [
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      }
+    ]
+  },
+  "cliff_test": {
+    "valid": true,
+    "at_limit": {
+      "payload_bytes": 1410,
+      "total_bytes": 1438,
+      "packet_loss_pct": 0,
+      "output": "PING 1.1.1.1 (1.1.1.1) 1410(1438) bytes of data.\n1418 bytes from 1.1.1.1: icmp_seq=1 ttl=56 time=89.4 ms\n1418 bytes from 1.1.1.1: icmp_seq=2 ttl=56 time=90.2 ms\n1418 bytes from 1.1.1.1: icmp_seq=3 ttl=56 time=89.1 ms\n1418 bytes from 1.1.1.1: icmp_seq=4 ttl=56 time=87.2 ms\n1418 bytes from 1.1.1.1: icmp_seq=5 ttl=56 time=87.3 ms\n1418 bytes from 1.1.1.1: icmp_seq=6 ttl=56 time=94.9 ms\n1418 bytes from 1.1.1.1: icmp_seq=7 ttl=56 time=90.2 ms\n1418 bytes from 1.1.1.1: icmp_seq=8 ttl=56 time=90.4 ms\n1418 bytes from 1.1.1.1: icmp_seq=9 ttl=56 time=88.8 ms\n1418 bytes from 1.1.1.1: icmp_seq=10 ttl=56 time=88.4 ms\n\n--- 1.1.1.1 ping statistics ---\n10 packets transmitted, 10 received, 0% packet loss, time 9014ms\nrtt min/avg/max/mdev = 87.243/89.597/94.909/2.063 ms"
+    },
+    "over_limit": {
+      "payload_bytes": 1411,
+      "total_bytes": 1439,
+      "packet_loss_pct": 100,
+      "output": "PING 1.1.1.1 (1.1.1.1) 1411(1439) bytes of data.\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\n\n--- 1.1.1.1 ping statistics ---\n10 packets transmitted, 0 received, +10 errors, 100% packet loss, time 9203ms"
+    }
+  }
+}

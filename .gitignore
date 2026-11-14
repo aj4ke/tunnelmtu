@@ -1,0 +1,6 @@
+dist/
+.go/
+.cache/
+.DS_Store
+*.log
+*.out

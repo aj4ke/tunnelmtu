@@ -1,0 +1,227 @@
+{
+  "host": "root@10.0.0.240",
+  "interfaces": [
+    "l2tpeth1002",
+    "l2tpeth1003"
+  ],
+  "target": "1.1.1.1",
+  "timestamp": "2026-03-17T17:50:35.971799+00:00",
+  "phase1": {
+    "configured_mtu": 1500,
+    "tunnelmtu": [
+      {
+        "interface": "l2tpeth1002",
+        "path_mtu": 1491,
+        "usable_mtu": 1441,
+        "configured_mtu": 1500,
+        "total_overhead": 50,
+        "probe_count": 10,
+        "duration_ms": 8636,
+        "pass_": true,
+        "error": ""
+      },
+      {
+        "interface": "l2tpeth1003",
+        "path_mtu": 1488,
+        "usable_mtu": 1438,
+        "configured_mtu": 1500,
+        "total_overhead": 50,
+        "probe_count": 11,
+        "duration_ms": 4948,
+        "pass_": true,
+        "error": ""
+      }
+    ],
+    "speedtests": [
+      {
+        "dl_iqm_ms": 147.564,
+        "dl_high_ms": 520.724,
+        "jitter_ms": 8.063,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 143.43,
+        "dl_high_ms": 538.086,
+        "jitter_ms": 7.366,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 144.219,
+        "dl_high_ms": 365.796,
+        "jitter_ms": 4.486,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 144.995,
+        "dl_high_ms": 538.994,
+        "jitter_ms": 8.39,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 149.111,
+        "dl_high_ms": 570.692,
+        "jitter_ms": 5.937,
+        "error": ""
+      }
+    ],
+    "frag_deltas": [
+      {
+        "reasm_reqds": 52,
+        "reasm_oks": 26,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 58,
+        "reasm_oks": 29,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 68,
+        "reasm_oks": 34,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 60,
+        "reasm_oks": 30,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 60,
+        "reasm_oks": 30,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      }
+    ]
+  },
+  "correct_mtu": 1438,
+  "phase3": {
+    "configured_mtu": 1438,
+    "tunnelmtu": [
+      {
+        "interface": "l2tpeth1002",
+        "path_mtu": 1488,
+        "usable_mtu": 1438,
+        "configured_mtu": 1438,
+        "total_overhead": 50,
+        "probe_count": 11,
+        "duration_ms": 1935,
+        "pass_": true,
+        "error": ""
+      },
+      {
+        "interface": "l2tpeth1003",
+        "path_mtu": 1488,
+        "usable_mtu": 1438,
+        "configured_mtu": 1438,
+        "total_overhead": 50,
+        "probe_count": 11,
+        "duration_ms": 1914,
+        "pass_": true,
+        "error": ""
+      }
+    ],
+    "speedtests": [
+      {
+        "dl_iqm_ms": 146.096,
+        "dl_high_ms": 367.994,
+        "jitter_ms": 4.768,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 147.88,
+        "dl_high_ms": 574.417,
+        "jitter_ms": 5.152,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 154.014,
+        "dl_high_ms": 2382.603,
+        "jitter_ms": 5.14,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 147.837,
+        "dl_high_ms": 581.504,
+        "jitter_ms": 3.497,
+        "error": ""
+      },
+      {
+        "dl_iqm_ms": 146.557,
+        "dl_high_ms": 594.983,
+        "jitter_ms": 4.097,
+        "error": ""
+      }
+    ],
+    "frag_deltas": [
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      },
+      {
+        "reasm_reqds": 0,
+        "reasm_oks": 0,
+        "reasm_fails": 0,
+        "frag_oks": 0,
+        "frag_fails": 0,
+        "frag_creates": 0
+      }
+    ]
+  },
+  "cliff_test": {
+    "valid": true,
+    "at_limit": {
+      "payload_bytes": 1410,
+      "total_bytes": 1438,
+      "packet_loss_pct": 0,
+      "output": "PING 1.1.1.1 (1.1.1.1) 1410(1438) bytes of data.\n1418 bytes from 1.1.1.1: icmp_seq=1 ttl=56 time=94.0 ms\n1418 bytes from 1.1.1.1: icmp_seq=2 ttl=56 time=88.9 ms\n1418 bytes from 1.1.1.1: icmp_seq=3 ttl=56 time=88.8 ms\n1418 bytes from 1.1.1.1: icmp_seq=4 ttl=56 time=98.4 ms\n1418 bytes from 1.1.1.1: icmp_seq=5 ttl=56 time=91.8 ms\n1418 bytes from 1.1.1.1: icmp_seq=6 ttl=56 time=87.7 ms\n1418 bytes from 1.1.1.1: icmp_seq=7 ttl=56 time=91.8 ms\n1418 bytes from 1.1.1.1: icmp_seq=8 ttl=56 time=89.3 ms\n1418 bytes from 1.1.1.1: icmp_seq=9 ttl=56 time=88.7 ms\n1418 bytes from 1.1.1.1: icmp_seq=10 ttl=56 time=86.8 ms\n\n--- 1.1.1.1 ping statistics ---\n10 packets transmitted, 10 received, 0% packet loss, time 9014ms\nrtt min/avg/max/mdev = 86.812/90.617/98.358/3.294 ms"
+    },
+    "over_limit": {
+      "payload_bytes": 1411,
+      "total_bytes": 1439,
+      "packet_loss_pct": 100,
+      "output": "PING 1.1.1.1 (1.1.1.1) 1411(1439) bytes of data.\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\nping: local error: message too long, mtu=1438\n\n--- 1.1.1.1 ping statistics ---\n10 packets transmitted, 0 received, +10 errors, 100% packet loss, time 9218ms"
+    }
+  }
+}
